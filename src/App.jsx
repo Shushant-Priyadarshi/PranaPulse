@@ -1,7 +1,11 @@
+import Front from "./components/Body/Front";
+import NavBar from "./components/header/NavBar";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <NavBar/>
+      <Front/>
     </>
   );
 }
